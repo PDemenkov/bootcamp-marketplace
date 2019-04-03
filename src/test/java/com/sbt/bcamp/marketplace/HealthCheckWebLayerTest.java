@@ -8,6 +8,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.is;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -15,14 +16,15 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest
-public class WebLayerTest {
+public class HealthCheckWebLayerTest {
 
     @Autowired
     private MockMvc mockMvc;
 
     @Test
     public void shouldReturnOKMessage() throws Exception {
-        this.mockMvc.perform(get("/health/check")).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("OK")));
+        mockMvc.perform(get("/health/check")).andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(content().string(is("OK")));
     }
 }
