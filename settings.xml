@@ -2,6 +2,20 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <servers>
+        <server>
+            <id>release.repo</id>
+            <username>SBT-SA-BOOTCAMP_S</username>
+            <password>NexusBC2019</password>
+        </server>
+        <server>
+            <id>snapshot.repo</id>
+            <username>SBT-SA-BOOTCAMP_S</username>
+            <password>NexusBC2019</password>
+        </server>
+    </servers>
+
     <mirrors>
         <mirror>
             <id>Mirror of central</id>
