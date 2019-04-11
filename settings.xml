@@ -14,13 +14,18 @@
             <username>SBT-SA-BOOTCAMP_S</username>
             <password>NexusBC2019</password>
         </server>
+        <server>
+            <id>internal</id>
+            <username>SBT-SA-BOOTCAMP_S</username>
+            <password>NexusBC2019</password>
+        </server>
     </servers>
 
     <mirrors>
         <mirror>
-            <id>Mirror of central</id>
+            <id>internal</id>
             <name>Mirror of central</name>
-            <url>http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/public</url>
+            <url>http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/internal</url>
             <mirrorOf>*</mirrorOf>
         </mirror>
     </mirrors>
