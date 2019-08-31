@@ -7,17 +7,17 @@
         <server>
             <id>release.repo</id>
             <username>SBT-SA-BOOTCAMP_S</username>
-            <password>NexusBC2019</password>
+            <password>Для сборки необходимо правильно указать settings.security {cXtASs0EtjYHOvWIqEWwellQnRyQio+XQD0AI9kPjHg=}</password>
         </server>
         <server>
             <id>snapshot.repo</id>
             <username>SBT-SA-BOOTCAMP_S</username>
-            <password>NexusBC2019</password>
+            <password>Для сборки необходимо правильно указать settings.security {cXtASs0EtjYHOvWIqEWwellQnRyQio+XQD0AI9kPjHg=}</password>
         </server>
         <server>
             <id>internal</id>
             <username>SBT-SA-BOOTCAMP_S</username>
-            <password>NexusBC2019</password>
+            <password>Для сборки необходимо правильно указать settings.security {cXtASs0EtjYHOvWIqEWwellQnRyQio+XQD0AI9kPjHg=}</password>
         </server>
     </servers>
 
