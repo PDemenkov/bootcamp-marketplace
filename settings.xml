@@ -3,30 +3,32 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
+<!-- Будьте кибербезопасным! Не помещайте свой пароль в удалённый репозиторий! -->
+
     <servers>
         <server>
             <id>release.repo</id>
-            <username>SBT-SA-BOOTCAMP_S</username>
-            <password>NexusBC2019</password>
-        </server>
-        <server>
-            <id>snapshot.repo</id>
-            <username>SBT-SA-BOOTCAMP_S</username>
-            <password>NexusBC2019</password>
-        </server>
-        <server>
-            <id>internal</id>
-            <username>SBT-SA-BOOTCAMP_S</username>
-            <password>NexusBC2019</password>
-        </server>
-    </servers>
+            <username>YOUR_SIGMA_LOGIN</username>
+            <password>YOUR_SIGMA_PASSWORD</password>
+         </server>
+         <server>
+             <id>snapshot.repo</id>
+             <username>YOUR_SIGMA_LOGIN</username>
+             <password>YOUR_SIGMA_PASSWORD</password>
+         </server>
+         <server>
+             <id>internal</id>
+             <username>YOUR_SIGMA_LOGIN</username>
+             <password>YOUR_SIGMA_PASSWORD</password>
+         </server>
+     </servers>
 
-    <mirrors>
-        <mirror>
-            <id>internal</id>
-            <name>Mirror of central</name>
-            <url>http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/internal</url>
-            <mirrorOf>*</mirrorOf>
-        </mirror>
-    </mirrors>
-</settings>
+     <mirrors>
+         <mirror>
+             <id>internal</id>
+             <name>Mirror of central</name>
+             <url>http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/internal</url>
+             <mirrorOf>*</mirrorOf>
+         </mirror>
+     </mirrors>
+ </settings>
