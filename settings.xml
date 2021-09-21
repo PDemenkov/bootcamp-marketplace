@@ -27,7 +27,7 @@
          <mirror>
              <id>internal</id>
              <name>Mirror of central</name>
-             <url>http://sbtatlas.sigma.sbrf.ru/nexus/content/groups/internal</url>
+             <url>https://nexus.sigma.sbrf.ru/nexus/content/groups/public</url>
              <mirrorOf>*</mirrorOf>
          </mirror>
      </mirrors>
