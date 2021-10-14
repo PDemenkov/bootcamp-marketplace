@@ -1,4 +1,4 @@
-package com.sbt.bcamp.marketplace;
+  package com.sbt.bcamp.marketplace;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
