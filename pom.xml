@@ -65,7 +65,7 @@
     <repositories>
         <repository>
             <id>bootcamp_nexus</id>
-            <url>http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/bootcamp_snapshot/</url>
+            <url>https://nexus.sigma.sbrf.ru/nexus/content/repositories/bootcamp_snapshot/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -79,11 +79,11 @@
     <distributionManagement>
         <repository>
             <id>release.repo</id>
-            <url>http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/bootcamp_release</url>
+            <url>https://nexus.sigma.sbrf.ru/nexus/content/repositories/bootcamp_release</url>
         </repository>
         <snapshotRepository>
             <id>snapshot.repo</id>
-            <url>http://sbtatlas.sigma.sbrf.ru/nexus/content/repositories/bootcamp_snapshot</url>
+            <url>https://nexus.sigma.sbrf.ru/nexus/content/repositories/bootcamp_snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -103,7 +103,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.4</version>
+                <version>0.8.6</version>
                 <executions>
                     <execution>
                         <goals>
